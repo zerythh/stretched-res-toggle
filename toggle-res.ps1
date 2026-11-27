@@ -1,8 +1,8 @@
 param(
-    [int]$NativeW  = 1920,
-    [int]$NativeH  = 1080,
-    [int]$StretchW = 1280,
-    [int]$StretchH = 1024
+    [Parameter(Mandatory)][int]$NativeW,
+    [Parameter(Mandatory)][int]$NativeH,
+    [Parameter(Mandatory)][int]$StretchW,
+    [Parameter(Mandatory)][int]$StretchH
 )
 
 Add-Type @"
