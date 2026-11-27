@@ -1,13 +1,16 @@
 @echo off
-:: ==========================================================
-::  Stretched Res Toggle - just edit the 4 values below, then run.
-:: ==========================================================
+
+:: =======================================================================================================
+::  Stretched Res Toggle - just edit the 4 values below to your liking, these are the defaults.
+:: =======================================================================================================
+
 set NATIVE_W=1920
 set NATIVE_H=1080
 
 set STRETCHED_W=1280
 set STRETCHED_H=1024
-:: ==========================================================
+
+:: =======================================================================================================
 
 set "SCRIPT_URL=https://raw.githubusercontent.com/zerythh/stretched-res-toggle/refs/heads/main/toggle-res.ps1"
 set "SCRIPT=%TEMP%\toggle-res.ps1"
