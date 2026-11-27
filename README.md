@@ -21,7 +21,7 @@ Tip: make a desktop shortcut to the `.bat` and assign a shortcut key, or bind it
 
 - Affects the **primary** display only. Refresh rate and color depth are kept as-is.
 - The mode is tested before being applied, so an unsupported resolution won't blank your screen.
-- For 1280x1024 to actually look *stretched* on a 16:9 monitor, set scaling to **Full-screen / Full-panel** in your GPU control panel (NVIDIA: Adjust desktop size and position; AMD: Scaling mode). Windows itself only changes the resolution.
+- For your "stretched resolution" to actually look *stretched* on a 16:9 monitor, set scaling to **Full-screen / Full-panel** in your GPU control panel (NVIDIA: Adjust desktop size and position; AMD: Scaling mode). Windows itself only changes the resolution.
 - Resolution is changed persistently (written to the registry), so the detection works reliably between runs.
 
 ## License
